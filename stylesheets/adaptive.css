@@ -1,0 +1,322 @@
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    
+    body {
+        height: 520vw;
+    }
+
+    .horizontal {
+        display: none;
+    }
+
+    .vertical {
+        display: block;
+    }
+
+    .adaptive_info {
+        display: none;
+    }
+
+    #content_none {
+        display: block;
+    }
+
+    .information {
+        flex-direction: column;
+        width: 24vw;
+        height: 15vw;
+        margin-left: 1vw;
+    }
+
+    .information h4 {
+        font-size: 2vw;
+        padding: 1vw 0;
+    }
+
+    .burger {
+        display: block;
+        width: 5vw;
+        height: 5vw;
+        background-image: url('/shoping-main/img/burger.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: -25vw 0 0 85vw;        
+        position: absolute;
+        user-select: none;
+        cursor: pointer;
+    }
+      
+      .menu {
+        position: absolute;
+        top: 3vw;
+        right: 3vw;
+        width: 30vw;
+        background: white;
+        border-radius: 0.5vw;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        padding: 2vw;
+        transform: scale(0);
+        transform-origin: top right;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+        z-index: 10;
+      }
+      
+      .menu.active {
+        border: 0.05vw solid #000;
+        border-radius: 1vw;
+        background: #FFF;
+        box-shadow: 4.123px 1.767px 19.967px 3.534px rgba(0, 0, 0, 0.25);
+        transform: scale(1);
+        opacity: 1;
+      }
+      
+      .menu .close {
+        font-size: 2vw;
+        text-align: right;
+        cursor: pointer;
+      }
+
+      .close {
+        background-image: url("/shoping-main/img/close.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2vw;
+        height: 2vw;
+        margin: 0 0 0 24vw;
+      }
+
+      .modal-content {
+        margin: 5vw 15vw;
+        width: 70vw;
+        max-height: 80vw;
+      }
+
+      .deliveryModal p, li, ul {
+        font-size: 2.2vw;
+        line-height: 129%;
+    }
+
+    .close h2, h3, p {
+        font-size: 3.2vw;
+    }
+
+      .first_line {
+        flex-direction: column-reverse;
+        gap: 2vw;
+        margin: 3vw 0 0 4vw;
+      }
+
+      .logo_footer {
+        margin: 0 0 0vw 3vw;
+        width: 30vw;
+        height: 12vw;
+      }
+
+      footer {
+        height: 45vw;
+      }
+
+      .first_screen {
+        height: 100vw;
+      }
+
+      .sec_screen {
+        width: 100vw;
+        height: 80vw;
+    }
+
+    .third_screen h2 {
+        padding: 3vw 0;
+        margin: 0vw 0 0 7vw;
+        text-align: center;
+        width: 86vw;
+        height: 1vw;
+        font-family: "InterMedium";
+        font-size: 4vw;
+    }
+
+    .third_screen p {
+        padding: 1vw 0;
+        margin: 1vw 0 0 14vw;
+        text-align: center;
+        width: 72vw;
+        height: 14vw;
+        font-size: 2.2vw;
+    }
+
+    .size h5 {
+        font-family: "InterRegular";
+        font-size: 4vw;
+    }
+
+    .buy {
+        width: 62vw;
+        height: 7vw;
+        border-radius: 1.5vw;
+        margin: -9vw 0 0 0;
+    }
+
+    .buy_text {
+        width: 20vw;
+        height: 6vw;
+        margin-top: 1vw;
+    }
+
+    .size_boxes {
+        width: 27vw;
+        margin: -8vw 0;
+    }
+
+    .content2 {
+        width: 80vw;
+        margin: 10vw 10vw;
+        max-height: 60vw;
+        padding: 5vw;
+    }
+
+    .close {
+        width: 2vw;
+        height: 2vw;
+        margin: 0 0 0 0vw;
+    }
+
+    .close h2, h3, p {
+        font-size: 3.2vw;
+    }
+
+    .offer_title {
+        font-size: 3.2vw;
+    }
+
+
+
+
+    .size-btn {
+        width: 13vw;
+        height: 7vw;
+        border-radius: 1vw;
+    }
+
+    .size_boxes h4 {
+        font-size: 3.5vw;
+    }
+
+    .third_screen {
+        width: 100vw;
+        height: 160vw;
+    }
+
+    .size-chart {
+        height: 27vw;
+        width: 57vw;
+        font-size: 3.2vw;
+    }
+
+    .photo_container {
+        width: 100vw;
+        height: 72vw;
+    }
+
+
+
+    .size {
+        width: 100vw;
+        height: 66vw;
+    }
+
+      .video-background {
+        height: 100vw;
+      }
+
+      .logo {
+        width: 82vw;
+        margin: 40vw 0 0 8vw;
+    }
+
+    .photo {
+        background-size: contain;
+        width: 65vw;
+        height: 44vw;
+    }
+
+    .fivth_screen p {
+        font-size: 2vw;
+    }
+
+    footer h4 {
+        text-align: center;
+        line-height: 125%;
+        font-family: "InterMedium";
+        font-size: 2.3vw;
+    }
+
+    .model canvas {
+        width: 70vw !important;
+        max-height: 80vw;
+        object-fit: contain;
+        margin: -45vw 0 0 0;
+      }
+}
+
+/* Скрыть таблицу по умолчанию на мобильных устройствах */
+@media (max-width: 768px) {
+    .size-chart {
+      display: none;
+    }
+
+    .size-grid-header {
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    .mobile-toggle {
+      cursor: pointer;
+      background-image: url("/shoping-main/img/arrow.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 2vw;
+      height: 2vw;
+      display: block;
+      margin: 0.2vw 0 0 0;
+    }
+  }
+  
+  /* Для обычных экранов таблица всегда видна */
+  @media (min-width: 769px) {
+    .size-chart {
+      display: table;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .swiper-slide {
+      width: auto;
+      max-width: none;
+    }
+  
+    .swiper {
+      height: auto;
+      padding: 6vw 0;
+    }
+  }
+  
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
